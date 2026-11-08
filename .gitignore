@@ -1,0 +1,8 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Screenshots and temp raw media
+Screenshot*.png
+*.tmp

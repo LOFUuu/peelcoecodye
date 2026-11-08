@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" role="img" aria-label="Abstract poster painting with bold brush strokes, an orange slice, leaves and paint splatters">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="7"/>
+    </filter>
+    <filter id="bristle" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency=".012 .5" numOctaves="2" seed="9" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="10"/>
+    </filter>
+  </defs>
+  <rect width="440" height="440" fill="#f7f6f0"/>
+  <g filter="url(#bristle)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-10 90 C90 40 170 130 260 80 S400 50 460 90" stroke="#f6d22b" stroke-width="58"/>
+    <path d="M-10 170 C80 130 150 210 250 165 S380 140 460 175" stroke="#f28a1c" stroke-width="50"/>
+    <path d="M-10 250 C90 215 170 290 265 245 S390 225 460 255" stroke="#d3202f" stroke-width="48"/>
+    <path d="M-10 325 C70 295 160 360 250 322 S390 300 460 335" stroke="#1f5fb8" stroke-width="46"/>
+    <path d="M-10 395 C90 365 170 425 270 392 S390 375 460 400" stroke="#59c52e" stroke-width="44"/>
+  </g>
+  <g filter="url(#bristle)" fill="none" stroke-linecap="round" opacity=".35">
+    <path d="M10 82 C100 38 175 120 262 74 S395 48 450 84" stroke="#fff" stroke-width="6"/>
+    <path d="M10 244 C100 212 175 282 266 238 S390 222 450 248" stroke="#fff" stroke-width="6"/>
+    <path d="M10 318 C80 292 165 352 252 316 S388 296 450 328" stroke="#000" stroke-width="5"/>
+  </g>
+  <g filter="url(#rough)">
+    <circle cx="318" cy="205" r="74" fill="#f28a1c"/>
+    <circle cx="318" cy="205" r="74" fill="none" stroke="#fbfaf6" stroke-width="9"/>
+    <circle cx="318" cy="205" r="60" fill="#f6a43d"/>
+    <g stroke="#fbfaf6" stroke-width="5" stroke-linecap="round">
+      <path d="M318 205 V150"/>
+      <path d="M318 205 L365 178"/>
+      <path d="M318 205 L365 232"/>
+      <path d="M318 205 V260"/>
+      <path d="M318 205 L271 232"/>
+      <path d="M318 205 L271 178"/>
+    </g>
+    <circle cx="318" cy="205" r="9" fill="#fbfaf6"/>
+    <path d="M120 330 C80 280 110 220 170 215 C190 270 170 315 120 330Z" fill="#2f5d3f"/>
+    <path d="M120 330 C130 290 145 255 170 215" stroke="#8fc79f" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M90 372 C60 340 70 300 110 292 C128 330 120 360 90 372Z" fill="#59c52e"/>
+    <path d="M355 345 C330 305 355 270 395 272 C405 312 390 338 355 345Z" fill="#12958f"/>
+  </g>
+  <g>
+    <circle cx="60" cy="150" r="9" fill="#1f5fb8"/>
+    <circle cx="84" cy="128" r="4" fill="#1f5fb8"/>
+    <circle cx="38" cy="184" r="5" fill="#1f5fb8"/>
+    <circle cx="230" cy="290" r="8" fill="#f6d22b"/>
+    <circle cx="248" cy="312" r="4" fill="#f6d22b"/>
+    <circle cx="206" cy="268" r="3.5" fill="#f6d22b"/>
+    <circle cx="400" cy="60" r="10" fill="#d3202f"/>
+    <circle cx="378" cy="34" r="5" fill="#d3202f"/>
+    <circle cx="420" cy="96" r="4" fill="#d3202f"/>
+    <circle cx="150" cy="34" r="7" fill="#8a5030"/>
+    <circle cx="172" cy="54" r="3.5" fill="#8a5030"/>
+  </g>
+</svg>
+
